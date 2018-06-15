@@ -10,7 +10,7 @@ import {
   ScrollView,
   Button
 } from "react-native";
-import globalStyles from "../../styles/global";
+// import globalStyles from "../../styles/global";
 
 export default class Home extends Component {
   static navigationOptions = {
@@ -39,8 +39,5 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignSelf: "stretch",
     alignItems: "center"
-  },
-  header: {
-    fontSize: globalStyles.FONT_SIZE_LARGE
   }
 });
